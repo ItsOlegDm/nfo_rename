@@ -1,2 +1,1 @@
-# nfo_rename
-Use filenames as titles
+A script that changes the title in .nfo files to the file name for jellyfin
