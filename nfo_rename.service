@@ -1,0 +1,15 @@
+[Unit]
+Description=NFO Creator Service
+After=network.target
+
+[Service]
+ExecStart=/run/media/itsolegdm/file-trashbin/itsolegdm/jellyfin/nfo_creator.sh
+Restart=always
+User=
+Group=
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/run/media/itsolegdm/file-trashbin/itsolegdm/jellyfin/
+
+[Install]
+WantedBy=multi-user.target
